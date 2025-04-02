@@ -78,7 +78,7 @@ When we analyze the TCP stream we can see that the attacker uses commands such a
 - <b>When communicating over the network, always use secure protocols. Using HTTPS (443) rather than using HTTP (80) is a great way to keep communications secure.<b>
 - <b>Use the principle of least privilege for administrator accounts on web servers to minimize the risk of an attacker gaining access.<b>
 - <b>Ensure administrator accounts to critical systems have a strict password policy with regular monitoring and maintenance.<b>
-- <b>Avoid putting sensitive data of user accounts in the etc/passwd/ file because it is a typical attack vector for threat actors to perform attacks that allow lateral movement and privilege escalation.<b>
+- <b>Avoid putting sensitive data of user accounts in the /etc/passwd/ file because it is a typical attack vector for threat actors to perform attacks that allow lateral movement and privilege escalation.<b>
 - <b>Continuously monitor for new patches and system upgrades to avoid exploitation of known vulnerabilities.<b>
 
 <!--
